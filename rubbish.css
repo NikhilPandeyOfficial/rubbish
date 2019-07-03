@@ -1,0 +1,212 @@
+body{
+    font-family: 'Fira Sans', sans-serif;
+}
+
+header{
+    
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("http://www.tokyoacademics.com/wp-content/uploads/2018/05/Study-image-3022x1511.jpg");
+    background-repeat: no-repeat; 
+    background-position: center;
+    width: 100%;
+    background-size: cover;
+}
+
+h1{
+    font-size: 70px;    
+}
+
+.head{
+    text-align: center;
+    color: white;
+    padding: 20%; 
+}
+
+.main{
+    padding: 100px 0px;
+}
+
+#main-image{
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("https://images.unsplash.com/photo-1535593167496-0f3f312d4d8a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80");
+    background-size: cover;
+    border-radius: 10px; width: 500px; height: 350px;  
+}
+
+.row .content {
+    display: block;
+    width: unset;
+    margin: 0 auto;
+    
+}
+
+ul li:not([name="navbarSuppo"]){
+    padding: 20px;
+    list-style-type: none;
+}
+
+.custom-btn{
+    margin: 15px;
+}
+
+.content{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content .col-xs-6 {
+    height: 150px;
+    width: 190px;
+    margin: 10px 20px;
+    border-radius: 10px;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("https://images.unsplash.com/photo-1535593167496-0f3f312d4d8a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80");
+    background-size: cover;
+}
+
+.preform{
+    background: linear-gradient( rgba(0, 0  , 0, 0.5), rgba(0, 0, 0, 0.5) ), url("https://s3-ap-southeast-1.amazonaws.com/cromly-dev/stories/r1uqOEdJ-/homeworkcover.jpg") !important;
+    background-size: cover !important;
+    color: white;
+    text-align: center;
+    padding: 40px 0px;
+}
+/* Carousel Styling */
+.carousel-inner{
+    background: linear-gradient( rgba(40, 155, 231, 0.7), rgba(40, 155, 231, 0.7) ), url("https://images.unsplash.com/photo-1519120126473-8be7aedcd6c6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+}
+
+/* cards styling */
+.cards{
+    padding: 100px 0;
+}
+
+.card img{
+    width: 358px;
+    height: 250px;
+}
+
+/*banner styling */
+#banner{
+    background: linear-gradient( rgba(40, 155, 231, 0.7), rgba(40, 155, 231, 0.7) ), url("https://images.unsplash.com/photo-1535593167496-0f3f312d4d8a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjIxMTIzfQ&auto=format&fit=crop&w=1051&q=80");    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding-top: 100px;
+    padding-bottom: 40px;
+    margin-bottom: 80px;
+}
+
+#banner-btn{
+    margin: 25px 0px;
+}
+
+#banner-btn button{
+    margin: 0 auto;
+    padding: 12px 80px;
+}
+#banner-btn span{
+    font-size: 30px
+}
+
+/* Footer styling */
+h3{
+    padding: 20px;
+}
+
+#footer .row .footer1{
+    padding: 50px
+}
+
+#footer .row .col-md-3 ul{
+    padding: 10px;
+    list-style-type: none;
+    column-count: 2
+}
+
+i{
+    width: 10px;
+    height: 10px;
+}
+
+#bottom{
+    height: 80px;
+    color: white;
+    background-color: rgb(172, 34, 34);
+    text-align: center; 
+    font-weight: lighter;
+    padding: 25px 0px;
+    letter-spacing: -1px;
+}
+
+
+@media only screen and (max-width: 500px) {
+    header{
+        background-repeat: no-repeat;
+        background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("http://www.tokyoacademics.com/wp-content/uploads/2018/05/Study-image-3022x1511.jpg");
+        width: 100%;
+        background-size: cover; 
+        background-position: center; 
+    }
+    
+    h1{
+        font-size: 32px;
+    }
+
+    .head{
+        text-align: center;
+        padding: 60% 20%;
+    }
+
+
+    .content .row{
+        margin-top: 20px;
+
+    }
+
+    #main-image{
+        width: 300px;
+        height: 300px;
+    }
+
+    .content .row img{
+        height: 150px;
+        width: 120px;    
+    }
+
+    #preform{
+        margin-left: -30px;
+        justify-content: center;
+    }
+
+    .main{
+        padding: 50px 20px;
+    }
+    .row{
+        margin: 0 auto;
+    }
+
+    .my_form{
+        padding-top :20px;
+    }
+    
+    /* card styling */
+    .cards{
+        padding: 70px 0; 
+    }
+
+    .cards .row .card{
+        margin-top: 23px;
+    }
+
+    .cards .row .card img{
+        width: 358px;
+        height: 250px;
+    }
+
+    #bottom{
+        letter-spacing: -2px;
+    }
+}
